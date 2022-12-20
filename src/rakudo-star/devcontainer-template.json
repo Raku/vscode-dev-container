@@ -1,0 +1,25 @@
+{
+    "id": "rakudo-star",
+    "version": "1.0.0",
+    "name": "Rakudo Star",
+    "description": "Develop Raku based applications with the Rakudo Star bundle. includes everything you need to get up and running.",
+    "documentationURL": "https://github.com/Raku/vscode-dev-container/tree/main/src/rakudo-star",
+    "publisher": "Raku Community",
+    "licenseURL": "https://github.com/Raku/vscode-dev-container/blob/main/LICENSE",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": "Rakudo Star version",
+            "proposals": [
+                "2022.12",
+                "2022.12-alpine",
+                "2022.07",
+                "2022.07-alpine"
+            ],
+            "default": "latest"
+        }
+    },
+    "platforms": [
+        "Raku"
+    ]
+}
