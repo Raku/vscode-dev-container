@@ -9,7 +9,7 @@
 	// "forwardPorts": [],
 
 	// 👇 Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "cat /usr/local/etc/greeting.txt",
+	// "postCreateCommand": "raku --version",
 
 	// 👇 Configure tool-specific properties.
 	// "customizations": {},
