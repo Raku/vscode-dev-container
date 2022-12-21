@@ -11,6 +11,8 @@
             "type": "string",
             "description": "Rakudo Star version",
             "proposals": [
+                "latest",
+                "latest-alpine",
                 "2022.12",
                 "2022.12-alpine",
                 "2022.07",
