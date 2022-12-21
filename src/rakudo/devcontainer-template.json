@@ -2,7 +2,7 @@
     "id": "rakudo",
     "version": "1.0.0",
     "name": "Rakudo",
-    "description": "Develop Raku based applications with the Rakudo.",
+    "description": "Develop Raku based applications with the Rakudo implementation of the Raku language.",
     "documentationURL": "https://github.com/Raku/vscode-dev-container/tree/main/src/rakudo",
     "publisher": "Raku Community",
     "licenseURL": "https://github.com/Raku/vscode-dev-container/blob/main/LICENSE",
