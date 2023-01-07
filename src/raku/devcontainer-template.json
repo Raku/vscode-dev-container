@@ -1,0 +1,22 @@
+{
+    "id": "raku",
+    "version": "1.0.0",
+    "name": "Raku",
+    "description": "Develop Raku based applications.",
+    "documentationURL": "https://github.com/Raku/vscode-dev-container/tree/main/src/raku",
+    "publisher": "Raku Community",
+    "licenseURL": "https://github.com/Raku/vscode-dev-container/blob/main/LICENSE",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": "Debian version",
+            "proposals": [
+                "6-bullseye"
+            ],
+            "default": "6-bullseye"
+        }
+    },
+    "platforms": [
+        "Raku"
+    ]
+}

@@ -3,8 +3,8 @@ cd $(dirname "$0")
 source test-utils.sh
 
 # Template specific tests
-check "distro" lsb_release -c
-check "greeting" [ $(cat /usr/local/etc/greeting.txt | grep hey) ]
+check "raku" raku --version
+check "zef" zef --version
 
 # Report result
 reportResults
