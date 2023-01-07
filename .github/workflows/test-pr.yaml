@@ -12,7 +12,7 @@ jobs:
         id: filter
         with:
           filters: |
-            rakudo: ./**/rakudo/**
+            raku: ./**/raku/**
 
   test:
     needs: [detect-changes]
