@@ -1,8 +1,6 @@
 {
-	"name": "Rakudo",
-	"build": {
-		"dockerfile": "Dockerfile"
-	}
+	"name": "Raku",
+	"image": "ghcr.io/m-dango/raku-devcontainer-demo:${templateOption:imageVariant}"
 
 	// 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
 	// "features": {},
